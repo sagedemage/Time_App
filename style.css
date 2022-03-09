@@ -39,3 +39,18 @@ h2 {
 	padding: 30px;	
 }
 
+#nav-links {
+	font-size: 2.5em;
+}
+
+#nav-links li {
+	float: left;
+	padding-right: 20px;
+	list-style-type: none;
+}
+
+#nav-bar {
+	background-color: green;
+	padding-bottom: 50px;
+}
+
