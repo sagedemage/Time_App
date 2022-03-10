@@ -6,12 +6,12 @@ function startTime() {
 	let d = "AM";
 	var con = document.getElementById('glass');
 
-	if (h >= 7 || h < 12) {
+	if (h >= 7 && h < 12) {
 		/* Morning */
 		// 7 to 11
 		con.style.backgroundColor = "#C3DEE0"; 
 	}
-	if (h >= 12 || h < 19) {
+	if (h >= 12 && h < 19) {
 		/* Afternoon */
 		// 12 to 18
 		con.style.backgroundColor = "#5DF4FF"; 
@@ -20,7 +20,7 @@ function startTime() {
 	if (h >= 19 || h < 7) {
 		/* Night */
 		// 19 to 6
-		con.style.backgroundColor = "#00477F"; 
+		con.style.backgroundColor = "#001865"; 
 
 	}
     if (h > 12) {
